@@ -28,10 +28,10 @@ public class OutputActivity extends AppCompatActivity {
         makeEditors();
 
         if ((answer == Math.floor(answer)) && !Double.isInfinite(answer)) {
-            answerTextView.setText(String.format("Answer is %d", (int) answer));
+            answerTextView.setText(String.format("%d", (int) answer));
         }
         else{
-            answerTextView.setText(String.format("Answer is %.2f", answer));
+            answerTextView.setText(String.format("%.2f", answer));
         }
     }
 

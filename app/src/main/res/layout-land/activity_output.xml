@@ -9,9 +9,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_marginTop="200dp"
+        android:layout_height="220dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
         android:layout_marginRight="20dp"
         android:background="#FF9800"
         android:orientation="vertical">
@@ -19,23 +19,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
-            android:textSize="50dp"
-            android:text="Answer is:"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif-medium"
-            />
+            android:text="Answer is:"
+            android:textColor="#000000"
+            android:textSize="50dp" />
 
         <TextView
             android:id="@+id/answerNumber"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#000000"
-            android:textSize="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="230dp"
             android:fontFamily="sans-serif-medium"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="70dp"/>
+            android:textColor="#000000"
+            android:textSize="60dp"/>
 
 
     </LinearLayout>
